@@ -46,7 +46,6 @@ object Main {
 
     SparkCommons.ssc.start()
     SparkCommons.ssc.awaitTermination()
-
   }
 
 }
