@@ -5,7 +5,7 @@ import commons.{FileParser, KafkaCommons, SparkCommons}
 import org.apache.log4j.{Level, Logger}
 
 /**
-  * Created by makaveli on 21/04/16.
+  * Created on 21/04/16.
   *
   * @author Mauro Losciale and Pietro Tedeschi.
   */
