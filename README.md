@@ -21,6 +21,7 @@ git clone https://github.com/pietrotedeschi/MovieSpark
 ```
 2. Import **SBT Project** with IntelliJ IDEA, and install all dependencies.
 3. Create SBT Tasks on Intellij (Run-->Edit Configurations-->Add SBT Task)
+
 **First Task**
 ```
 Name: clean
@@ -36,6 +37,7 @@ Tasks: assembly
 Name: submit
 Tasks: "sparkSubmit --class ml.Main"
 ```
+
 4. In your `home` directory, download the Web App KafkaMovieWS with `git`:
 ```
 git clone https://github.com/pietrotedeschi/KafkaMovieWS
