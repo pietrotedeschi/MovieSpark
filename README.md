@@ -1,10 +1,11 @@
 ## Development of a Distributed Web Movie Recommendation System using Apache Spark, Apache Kafka, Node.JS and Complex Event Processing.
-### Introduction
-We have developed MovieSpark, a movie recommendation system that recommends movies to user that he/she might be interested in. Among the techniques used in building recommendation systems, we used [Collaborative Filtering](https://en.wikipedia.org/wiki/Collaborative_filtering) that is one of the most promising approaches. The aim of this project, is to build a Distributed Movie Recommendation System to analyze and process the real-time data streams and manage the [Complex Events](https://en.wikipedia.org/wiki/Complex_event_processing) with a Query Language. The system can be used with a web interface that allow users to vote and view the recommended movies.
+
+## Introduction
+We have developed **MovieSpark**, a movie recommendation system that recommends movies to user that he/she might be interested in. Among the techniques used in building recommendation systems, we used [Collaborative Filtering](https://en.wikipedia.org/wiki/Collaborative_filtering) that is one of the most promising approaches. The aim of this project, is to build a Distributed Movie Recommendation System to analyze and process the real-time data streams and manage the [Complex Events](https://en.wikipedia.org/wiki/Complex_event_processing) with a Query Language. The system can be used with a web interface that allow users to vote and view the recommended movies.
 ### System Architecture
 ![alt tag](https://github.com/Seldonm/relazione-isa-lia/blob/master/images/cephw.png)
 
-### Requirements
+## Requirements
 - Unix-like Operating System
 - [IntelliJ IDEA with Scala and SBT Plugin] (https://www.jetbrains.com/idea/download/#section=linux)
 - [Apache Spark (Pre-built for Hadoop 2.6 and later)] (http://spark.apache.org/downloads.html)
@@ -12,7 +13,7 @@ We have developed MovieSpark, a movie recommendation system that recommends movi
 - [Node.js 5.10.1] (https://nodejs.org/en/download/package-manager/)
 - [KafkaMovieWS] (../../../KafkaMovieWS)
 
-### Installation and Configuration
+## Installation and Configuration
 1. To get started, open your `home` directory and download the project with `git`:
 ```
 git clone https://github.com/pietrotedeschi/MovieSpark
@@ -82,7 +83,7 @@ $KAFKA_HOME/bin/kafka-topics.sh --create --zookeeper localhost:2181 --replicatio
 echo "Starting App on localhost:3000"
 node $HOME/$NODE_SCRIPT_DIR/app.js --port 3000
 ```
-### Running (Local Mode)
+## Running (Local Mode)
 1. Open terminal, and run the script `start.sh` with `sudo start.sh`.
 2. Running project from IntelliJ (select Assembly Task).
 3. Open the Web Dashboard on `localhost:3000`.
@@ -93,4 +94,6 @@ node $HOME/$NODE_SCRIPT_DIR/app.js --port 3000
 3. Run the script `start.sh` with `sudo start.sh`.
 4. Open the Web Dashboard on `localhost:3000`.
 
-##Authors
+## Authors
+* [Pietro Tedeschi] (https://it.linkedin.com/in/pietrotedeschi)
+* [Mauro Losciale] (https://it.linkedin.com/in/maurolosciale)
