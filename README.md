@@ -15,12 +15,12 @@ We have developed **MovieSpark**, a movie recommendation system that recommends 
 - [KafkaMovieWS] (../../../KafkaMovieWS)
 
 ## Installation and Configuration
-1. To get started, open your `home` directory and download the project with `git`:
+- To get started, open your `home` directory and download the project with `git`:
 ```
 git clone https://github.com/pietrotedeschi/MovieSpark
 ```
-2. Import **SBT Project** with IntelliJ IDEA, and install all dependencies.
-3. Create SBT Tasks on Intellij (Run-->Edit Configurations-->Add SBT Task)
+- Import **SBT Project** with IntelliJ IDEA, and install all dependencies.
+- Create SBT Tasks on Intellij (Run-->Edit Configurations-->Add SBT Task)
 
 **First Task**
 ```
@@ -38,16 +38,16 @@ Name: submit
 Tasks: "sparkSubmit --class ml.Main"
 ```
 
-4. In your `home` directory, download the Web App KafkaMovieWS with `git`:
+- In your `home` directory, download the Web App KafkaMovieWS with `git`:
 ```
 git clone https://github.com/pietrotedeschi/KafkaMovieWS
 ```
-5. Configure `config/server.properties` file of Apache Kafka:
+- Configure `config/server.properties` file of Apache Kafka:
 ```bash
 zookeeper.connect = localhost:2181
 advertised.host.name = your_hostname OR ip
 ```
-6. If you want to run MovieSpark in Cluster Mode, you must configure the `conf/spark-env.sh` file of Apache Spark:
+- If you want to run MovieSpark in Cluster Mode, you must configure the `conf/spark-env.sh` file of Apache Spark:
 ```bash
 export SPARK_WORKER_CORES = n
 export SPARK_WORKER_MEMORY = mg
@@ -56,7 +56,7 @@ export SPARK_MASTER_PORT =7077
 export MASTER = spark :// $ { SPARK_MASTER_IP }: $ { SPARK_MASTER_PORT }
 ```
 Please read the [Spark Documetation](http://spark.apache.org/docs/latest/configuration.html) to understand how to configure this file.
-7. Open `start.sh` and configure it with your parameters.
+- Open `start.sh` and configure it with your parameters.
 ```bash
 #!/bin/bash
 #Run Script with sudo !
