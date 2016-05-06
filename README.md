@@ -91,7 +91,7 @@ node $HOME/$NODE_SCRIPT_DIR/app.js --port 3000
 2. Running project from IntelliJ (select Assembly Task).
 3. Open the Web Dashboard on `localhost:3000`.
 
-### Running (Cluster Mode)
+## Running (Cluster Mode)
 1. **Master Node**: Open terminal, enter in the `root` directory of Spark and digit: `/sbin/start-master.sh`.
 2. **Worker Node**: Open terminal, enter in the `root` directory of Spark and digit: `/sbin/start-slave.sh spark://SPARK_MASTER_IP:SPARK_MASTER_PORT`.
 3. Run the script `start.sh` with `sudo start.sh`.
