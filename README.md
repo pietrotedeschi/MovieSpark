@@ -2,7 +2,8 @@
 
 ## Introduction
 We have developed **MovieSpark**, a movie recommendation system that recommends movies to user that he/she might be interested in. Among the techniques used in building recommendation systems, we used [Collaborative Filtering](https://en.wikipedia.org/wiki/Collaborative_filtering) that is one of the most promising approaches. The aim of this project, is to build a Distributed Movie Recommendation System to analyze and process the real-time data streams and manage the [Complex Events](https://en.wikipedia.org/wiki/Complex_event_processing) with a Query Language. The system can be used with a web interface that allow users to vote and view the recommended movies.
-### System Architecture
+
+## System Architecture
 ![alt tag](https://github.com/Seldonm/relazione-isa-lia/blob/master/images/cephw.png)
 
 ## Requirements
