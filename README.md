@@ -98,5 +98,5 @@ node $HOME/$NODE_SCRIPT_DIR/app.js --port 3000
 4. Open the Web Dashboard on `localhost:3000`.
 
 ## Authors
-* [Pietro Tedeschi] (https://it.linkedin.com/in/pietrotedeschi)
-* [Mauro Losciale] (https://it.linkedin.com/in/maurolosciale)
+* [Pietro Tedeschi](https://it.linkedin.com/in/pietrotedeschi)
+* [Mauro Losciale](https://it.linkedin.com/in/maurolosciale)
